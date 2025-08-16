@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "owl"
+# 建议带本地后缀，表明是你的分支；版本基于 pip show 的 0.0.1
+version = "0.0.1+xbench.1"
+description = "Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation (xbench fork)"
+readme = "README.md"
+license = { text = "Apache-2.0" }  # 或 { file = "LICENSE" }（若仓库放了上游 LICENSE）
+authors = [
+  { name = "CAMEL-AI.org" },
+  { name = "Qimin Wu" }
+]
+requires-python = ">=3.8"
+dependencies = [
+  "camel-ai",
+  "docx2markdown",
+  "firecrawl",
+  "gradio",
+  "mcp-server-fetch",
+  "mcp-simple-arxiv",
+  "mistralai",
+  "xmltodict"
+]
+
+[project.urls]
+Homepage = "https://www.camel-ai.org/"
+
