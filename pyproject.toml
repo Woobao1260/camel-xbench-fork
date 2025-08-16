@@ -15,7 +15,6 @@ authors = [
 ]
 requires-python = ">=3.8"
 dependencies = [
-  "camel-ai",
   "docx2markdown",
   "firecrawl",
   "gradio",
