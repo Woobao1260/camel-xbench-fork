@@ -307,7 +307,7 @@ class AnthropicTokenCounter(BaseTokenCounter):
         # )
         self.client = Anthropic(
             base_url="https://api.anthropic.com",
-            http_client=custom_httpx_client,
+            # http_client=custom_httpx_client,
         )
         self.model = model
 
