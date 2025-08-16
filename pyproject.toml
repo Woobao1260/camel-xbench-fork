@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "owl"
+name = "camel"
 # 建议带本地后缀，表明是你的分支；版本基于 pip show 的 0.0.1
 version = "0.0.1+xbench.1"
 description = "Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation (xbench fork)"
@@ -15,7 +15,6 @@ authors = [
 ]
 requires-python = ">=3.8"
 dependencies = [
-  "camel-ai",
   "docx2markdown",
   "firecrawl",
   "gradio",
